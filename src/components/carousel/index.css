@@ -1,0 +1,20 @@
+.carousel-slider{
+  height: 100%;
+}
+.slider-wrapper{
+  height:100%;
+}
+.slider{
+  height:100%;
+}
+.slider div{
+  height: 100%;
+}
+.img-carousel img{
+  height: 100%;
+}
+.carousel .control-dots .dot{
+  height: 15px;
+  width:15px;
+  margin:0 15px;
+}
