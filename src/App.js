@@ -1,25 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import "./styles/app.css";
+import "./styles/custom.css";
+import Homepage from "./pages/Homepage";
+import Loading from "./components/loading";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setInterval(() => setLoading(false), 3000);
+    document.querySelector(".main-container").classList.toggle("hidden");
+  }, [loading]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      {loading ? <Loading /> : ""}
+      <Homepage />
+    </React.Fragment>
   );
 }
 
