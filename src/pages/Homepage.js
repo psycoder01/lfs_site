@@ -4,7 +4,7 @@ import Card from "../components/Card";
 import LabelText from "../components/LabelText";
 import SplitSection from "../components/SplitSection";
 
-import "../fonts/index.css";
+
 import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
 
