@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from "react";
+
 import "./css/main.css";
+import "./css/custom.css";
+import "./fonts/index.css";
+
 import Homepage from "./pages/Homepage";
 import Loading from "./components/loading";
 
