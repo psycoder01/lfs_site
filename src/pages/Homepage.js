@@ -39,7 +39,7 @@ import enroll from "../img/carousel/4.png";
 
 const Homepage = () => {
   return (
-    <div className={`main-container animate__animated animate__fadeIn`}>
+    <div className="main-container fadeIn">
       <Header />
       <section className="carousel-container w-full md:h-64 lg:h-96 h-40">
         <ImageCarousel />
