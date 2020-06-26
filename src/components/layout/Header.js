@@ -12,7 +12,7 @@ const Header = () => (
         </div>
         LFS Card
       </div>
-      <div className="flex mt-4 text-blue-600 sm:mt-0">
+      <div className="flex mt-4 text-primary sm:mt-0">
         <AnchorLink className="px-4" href="#features">
           Features
         </AnchorLink>

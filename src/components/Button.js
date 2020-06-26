@@ -14,11 +14,10 @@ const Button = ({ children, className = '', size,clickFunction,override }) => {
         ${sizes[size] || sizes.default}
         ${className}
         ${!override &&
-        `bg-blue-600
+        `bg-primary
         hover:bg-primary-darker
         rounded
         text-white
-        hidden md:block
         `}
     `}
     style={{outline:0}}
