@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from "react";
 
+//AOS library
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import "./css/main.css";
 import "./css/custom.css";
 import "./fonts/index.css";
@@ -12,6 +16,9 @@ function App() {
   useEffect(() => {
     setInterval(() => setLoading(false), 3000);
     document.querySelector(".main-container").classList.toggle("hidden");
+    
+    //Intitializing AOS library
+    AOS.init();
   }, [loading]);
 
   return (

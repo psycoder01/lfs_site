@@ -4,7 +4,6 @@ import Card from "../components/Card";
 import LabelText from "../components/LabelText";
 import SplitSection from "../components/SplitSection";
 
-
 import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
 
@@ -49,11 +48,19 @@ const Homepage = () => {
           <h2 className="font-mono text-3xl lg:text-5xl font-extrabold italic ">
             Why LFS Card !
           </h2>
-          <h2 className="text-3xl tracking-wider font-semibold">
+          <h2
+            className="text-3xl tracking-wider font-semibold"
+            data-aos={"fade-up"}
+            data-aos-duration="500"
+          >
             Our Features
           </h2>
           <div className="flex lg:flex-row md:flex-row flex-wrap flex-col sm:-mx-3 mt-4">
-            <div className="lg:flex-1 flex-0 md:w-1/2 px-3">
+            <div
+              className="lg:flex-1 flex-0 md:w-1/2 px-3"
+              data-aos={"fade-up"}
+              data-aos-duration="1000"
+            >
               <Card className="mb-8 h-full">
                 <p className="font-semibold text-xl">Over 100+ Outlets</p>
                 <img className="m-auto mt-4 h-40" src={outlet} alt="outlets" />
@@ -66,7 +73,11 @@ const Homepage = () => {
               </Card>
             </div>
 
-            <div className="lg:flex-1 flex-0 md:w-1/2 px-3">
+            <div
+              className="lg:flex-1 flex-0 md:w-1/2 px-3"
+              data-aos={"fade-up"}
+              data-aos-duration="1000"
+            >
               <Card className="mb-8 h-full">
                 <p className="font-semibold text-xl">
                   Instant Discount and Offers
@@ -80,7 +91,11 @@ const Homepage = () => {
               </Card>
             </div>
 
-            <div className="lg:flex-1 flex-0 md:w-1/2 md:mt-6 lg:mt-0 px-3">
+            <div
+              className="lg:flex-1 flex-0 md:w-1/2 md:mt-6 lg:mt-0 px-3"
+              data-aos={"fade-up"}
+              data-aos-duration="1000"
+            >
               <Card className="mb-8 h-full">
                 <p className="font-semibold text-xl">
                   Rewards and Gift Vouchers
@@ -93,7 +108,11 @@ const Homepage = () => {
               </Card>
             </div>
 
-            <div className="lg:flex-1 flex-0 md:w-1/2 md:mt-6 lg:mt-0 px-3">
+            <div
+              className="lg:flex-1 flex-0 md:w-1/2 md:mt-6 lg:mt-0 px-3"
+              data-aos={"fade-up"}
+              data-aos-duration="1000"
+            >
               <Card className="mb-8 h-full">
                 <p className="font-semibold text-xl">
                   <span>Saving More </span>
@@ -164,7 +183,7 @@ const Homepage = () => {
             Enroll Now !!!!
           </LabelText>
           <div className="flex flex-row mt-8 lg:px-24 justify-center">
-            <img src={enroll} className="opacity-50" alt="enroll"/>
+            <img src={enroll} className="opacity-50" alt="enroll" />
             <div className="button-container h-16 sm:pt-2 w-70 absolute self-end">
               <Button
                 className="mt-16 sm:mt-12 bg-blue-600 text-xs sm:text-lg md:text-xl lg:text-2xl text-white sm:text-blue-400 transition duration-300 ease-in-out sm:bg-transparent hover:bg-blue-600 transform hover:-translate-y-1 hover:scale-95 rounded-full border border-blue-500"
@@ -191,25 +210,27 @@ const Homepage = () => {
           <div className="mt-4 p-4 flex flex-row">
             <div className="playstore self-center w-32 sm:w-40">
               <a href="https://www.facebook.com">
-                <img src={playstore} alt="playstore"/>
+                <img src={playstore} alt="playstore" />
               </a>
             </div>
             <div className="appstore self-center w-32 sm:w-40">
               <a href="https://www.github.com">
-                <img src={appstore} alt="appstore"/>
+                <img src={appstore} alt="appstore" />
               </a>
             </div>
           </div>
         </div>
         <div className="container self-center h-64 w-40 abosolute md:right-0 sm:h-72 sm:w-64 md:mb-8 md:mr-16 md:h-80 lg:h-88 md:w-96 md:self-end">
-          <img src={mobile} className="h-full w-full" alt="mobile"/>
+          <img src={mobile} className="h-full w-full" alt="mobile" />
         </div>
       </section>
       <section
         id="connect"
         className="container mt-40 py-16 lg:py-32 bg-gray-400 mx-auto text-center rounded-lg"
       >
-        <h3 className="text-xl sm:text-3xl lg:text-5xl font-semibold">If you're a Merchant</h3>
+        <h3 className="text-xl sm:text-3xl lg:text-5xl font-semibold">
+          If you're a Merchant
+        </h3>
         <p className="text-sm mt-2 lg:mt-8 md:text-base lg:text-xl font-light">
           Without any Cost or extra bill
         </p>
