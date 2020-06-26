@@ -207,14 +207,14 @@ const Homepage = () => {
       </section>
       <section
         id="connect"
-        className="container mt-64 lg:py-32 bg-gray-400 mx-auto text-center rounded-lg"
+        className="container mt-40 py-16 lg:py-32 bg-gray-400 mx-auto text-center rounded-lg"
       >
-        <h3 className="text-5xl font-semibold">If you're a Merchant</h3>
-        <p className="mt-8 text-xl font-light">
+        <h3 className="text-xl sm:text-3xl lg:text-5xl font-semibold">If you're a Merchant</h3>
+        <p className="text-sm mt-2 lg:mt-8 md:text-base lg:text-xl font-light">
           Without any Cost or extra bill
         </p>
         <p className="mt-8 flex justify-center">
-          <Button size="xl" clickFunction={() => alert("Coming Soon!")}>
+          <Button size="lg" clickFunction={() => alert("Coming Soon!")}>
             Connect With Us !
           </Button>
         </p>

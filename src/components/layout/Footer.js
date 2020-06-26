@@ -27,7 +27,7 @@ const Footer = () => (
           id="grid-password"
           placeholder="Enter Your Email"
         />
-        <Button className="text-sm h-12" clickFunction={() => alert('Coming Soon!')}>
+        <Button className="text-sm font-extrabold h-12" clickFunction={() => alert('Coming Soon!')}>
           SUBSCRIBE
         </Button>
       </div>
