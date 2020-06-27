@@ -161,7 +161,7 @@ const Homepage = () => {
               data-aos={"zoom-in-left"}
             >
               <h3 className="text-xl md:text-2xl lg:text-3xl xl:text-3xl font-semibold leading-tight underline">
-                Everyone Enjoys
+                Amazing All
               </h3>
               <p className="mt-8 text-sm md:text-xl lg:text-xl xl:text-xl font-light leading-relaxed whitespace-pre-wrap">
                 {audienceContent}

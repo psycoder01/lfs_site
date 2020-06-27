@@ -1,6 +1,6 @@
 export const outletContent = `Variety of Outlets to choose from. 
 Double your enjoyment with paying less. 
-Find your spot near you 
+Find our merchant near you 
 without any hassle .` ;
 
 export const audienceContent = `LFS Members save instantly 
