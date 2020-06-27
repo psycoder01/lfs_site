@@ -129,13 +129,13 @@ const Homepage = () => {
         </div>
       </section>
       <section id="explore" className="mt-0 pt-24">
-        <div className="text-4xl text-center font-extrabold tracking-wider">
+        <div className="text-4xl text-center font-extrabold tracking-wider" data-aos={"zoom-in"}>
           Explore LFS World
         </div>
         <SplitSection
           reverseOrder
           primarySlot={
-            <div className="bg-blue-300 text-gray-700  rounded-l-lg p-4 lg:pr-32 xl:pr-48">
+            <div className="bg-blue-300 text-gray-700  rounded-l-lg p-4 lg:pr-32 xl:pr-48" data-aos={"zoom-in-right"}>
               <h3 className="text-xl md:text-2xl lg:text-3xl xl:text-3xl font-semibold leading-tight underline">
                 Our Outlets
               </h3>
@@ -146,10 +146,11 @@ const Homepage = () => {
           }
           imgSlot={shops}
           imgParams="lg:mr-40 lg:h-72 lg:w-2/5"
+          aos="zoom-in-left"
         />
         <SplitSection
           primarySlot={
-            <div className="bg-blue-300 text-gray-700 rounded-r-lg p-4 lg:pl-32 xl:pl-48">
+            <div className="bg-blue-300 text-gray-700 rounded-r-lg p-4 lg:pl-32 xl:pl-48" data-aos={"zoom-in-left"}>
               <h3 className="text-xl md:text-2xl lg:text-3xl xl:text-3xl font-semibold leading-tight underline">
                 Everyone Enjoys
               </h3>
@@ -160,11 +161,12 @@ const Homepage = () => {
           }
           imgSlot={amazingall}
           imgParams="lg:ml-64 lg:h-72 lg:w-2/5"
+          aos="zoom-in-right"
         />
         <SplitSection
           reverseOrder
           primarySlot={
-            <div className="bg-blue-300 text-gray-700 rounded-l-lg p-4 lg:pr-32 xl:pr-48">
+            <div className="bg-blue-300 text-gray-700 rounded-l-lg p-4 lg:pr-32 xl:pr-48" data-aos={"zoom-in-right"}>
               <h3 className="text-xl md:text-2xl lg:text-3xl xl:text-3xl font-semibold leading-tight underline">
                 Don't Miss Out
               </h3>
@@ -175,6 +177,7 @@ const Homepage = () => {
           }
           imgSlot={dontMiss}
           imgParams="lg:mr-40 lg:h-80 lg:w-2/5"
+          aos="zoom-in-left"
         />
       </section>
       <section id="enroll" className="py-20 lg:pt-32">
@@ -183,7 +186,7 @@ const Homepage = () => {
             Enroll Now !!!!
           </LabelText>
           <div className="flex flex-row mt-8 lg:px-24 justify-center">
-            <img src={enroll} className="opacity-50" alt="enroll" />
+            <img src={enroll} className="opacity-50" alt="enroll" data-aos={"flip-right"}/>
             <div className="button-container h-16 sm:pt-2 w-70 absolute self-end">
               <Button
                 className="mt-16 sm:mt-12 bg-blue-600 text-xs sm:text-lg md:text-xl lg:text-2xl text-white sm:text-blue-400 transition duration-300 ease-in-out sm:bg-transparent hover:bg-blue-600 transform hover:-translate-y-1 hover:scale-95 rounded-full border border-blue-500"
@@ -202,25 +205,25 @@ const Homepage = () => {
           <span className="text-xl md:text-2xl lg:text-4xl xl:text-5xl font-mono font-extrabold">
             Get the LFS Mobile App
           </span>
-          <ul className="list-disc sm:text-sm lg:text-xl ml-8">
+          <ul className="list-disc sm:text-sm lg:text-xl ml-8" data-aos={"fade-right"}>
             <li>Our Services in your pocket</li>
             <li>Download Our LFS App now</li>
             <li>Available in PlayStore and AppStore</li>
           </ul>
           <div className="mt-4 p-4 flex flex-row">
-            <div className="playstore self-center w-32 sm:w-40">
+            <div className="playstore self-center w-32 sm:w-40" data-aos={"fade-up"}>
               <a href="https://www.facebook.com">
                 <img src={playstore} alt="playstore" />
               </a>
             </div>
-            <div className="appstore self-center w-32 sm:w-40">
+            <div className="appstore self-center w-32 sm:w-40" data-aos={"fade-up"}>
               <a href="https://www.github.com">
                 <img src={appstore} alt="appstore" />
               </a>
             </div>
           </div>
         </div>
-        <div className="container self-center h-64 w-40 abosolute md:right-0 sm:h-72 sm:w-64 md:mb-8 md:mr-16 md:h-80 lg:h-88 md:w-96 md:self-end">
+        <div className="container self-center h-64 w-40 abosolute md:right-0 sm:h-72 sm:w-64 md:mb-8 md:mr-16 md:h-80 lg:h-88 md:w-96 md:self-end" data-aos={"fade-down"}>
           <img src={mobile} className="h-full w-full" alt="mobile" />
         </div>
       </section>
