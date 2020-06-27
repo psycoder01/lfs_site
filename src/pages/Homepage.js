@@ -279,7 +279,12 @@ const Homepage = () => {
           Without any Cost or extra bill
         </p>
         <p className="mt-8 flex justify-center">
-          <Button size="lg" clickFunction={() => alert("Coming Soon!")}>
+          <Button
+            size="lg"
+            clickFunction={() =>
+              window.open("https://forms.gle/j4JqJaXj1wN6z7f7A")
+            }
+          >
             Connect With Us !
           </Button>
         </p>
