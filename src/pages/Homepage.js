@@ -129,13 +129,19 @@ const Homepage = () => {
         </div>
       </section>
       <section id="explore" className="mt-0 pt-24">
-        <div className="text-4xl text-center font-extrabold tracking-wider" data-aos={"zoom-in"}>
+        <div
+          className="text-4xl text-center font-extrabold tracking-wider"
+          data-aos={"zoom-in"}
+        >
           Explore LFS World
         </div>
         <SplitSection
           reverseOrder
           primarySlot={
-            <div className="bg-blue-300 text-gray-700  rounded-l-lg p-4 lg:pr-32 xl:pr-48" data-aos={"zoom-in-right"}>
+            <div
+              className="bg-blue-300 text-gray-700  rounded-l-lg p-4 lg:pr-32 xl:pr-48"
+              data-aos={"zoom-in-right"}
+            >
               <h3 className="text-xl md:text-2xl lg:text-3xl xl:text-3xl font-semibold leading-tight underline">
                 Our Outlets
               </h3>
@@ -150,7 +156,10 @@ const Homepage = () => {
         />
         <SplitSection
           primarySlot={
-            <div className="bg-blue-300 text-gray-700 rounded-r-lg p-4 lg:pl-32 xl:pl-48" data-aos={"zoom-in-left"}>
+            <div
+              className="bg-blue-300 text-gray-700 rounded-r-lg p-4 lg:pl-32 xl:pl-48"
+              data-aos={"zoom-in-left"}
+            >
               <h3 className="text-xl md:text-2xl lg:text-3xl xl:text-3xl font-semibold leading-tight underline">
                 Everyone Enjoys
               </h3>
@@ -166,7 +175,10 @@ const Homepage = () => {
         <SplitSection
           reverseOrder
           primarySlot={
-            <div className="bg-blue-300 text-gray-700 rounded-l-lg p-4 lg:pr-32 xl:pr-48" data-aos={"zoom-in-right"}>
+            <div
+              className="bg-blue-300 text-gray-700 rounded-l-lg p-4 lg:pr-32 xl:pr-48"
+              data-aos={"zoom-in-right"}
+            >
               <h3 className="text-xl md:text-2xl lg:text-3xl xl:text-3xl font-semibold leading-tight underline">
                 Don't Miss Out
               </h3>
@@ -186,13 +198,22 @@ const Homepage = () => {
             Enroll Now !!!!
           </LabelText>
           <div className="flex flex-row mt-8 lg:px-24 justify-center">
-            <img src={enroll} className="opacity-50" alt="enroll" data-aos={"flip-right"}/>
+            <img
+              src={enroll}
+              className="opacity-50"
+              alt="enroll"
+              data-aos={"flip-right"}
+            />
             <div className="button-container h-16 sm:pt-2 w-70 absolute self-end">
               <Button
                 className="mt-16 sm:mt-12 bg-blue-600 text-xs sm:text-lg md:text-xl lg:text-2xl text-white sm:text-blue-400 transition duration-300 ease-in-out sm:bg-transparent hover:bg-blue-600 transform hover:-translate-y-1 hover:scale-95 rounded-full border border-blue-500"
                 override
                 size="base"
-                clickFunction={() => alert("Coming Soon!")}
+                clickFunction={() =>
+                  window.open(
+                    "https://docs.google.com/forms/d/e/1FAIpQLScP5NckkgIu-HgmPBl79INrUq9Pyv_yz6pvnrT4nkYN18lCJw/viewform?usp=sf_link"
+                  )
+                }
               >
                 Get LFS Services Today
               </Button>
@@ -205,25 +226,45 @@ const Homepage = () => {
           <span className="text-xl md:text-2xl lg:text-4xl xl:text-5xl font-mono font-extrabold">
             Get the LFS Mobile App
           </span>
-          <ul className="list-disc sm:text-sm lg:text-xl ml-8" data-aos={"fade-right"}>
+          <ul
+            className="list-disc sm:text-sm lg:text-xl ml-8"
+            data-aos={"fade-right"}
+          >
             <li>Our Services in your pocket</li>
             <li>Download Our LFS App now</li>
             <li>Available in PlayStore and AppStore</li>
           </ul>
           <div className="mt-4 p-4 flex flex-row">
-            <div className="playstore self-center w-32 sm:w-40" data-aos={"fade-up"}>
-              <a href="https://www.facebook.com">
+            <div
+              className="playstore self-center w-32 sm:w-40"
+              data-aos={"fade-up"}
+            >
+              <a
+                href="https://play.google.com/store/apps/details?id=com.lwg.lfs&hl=en"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <img src={playstore} alt="playstore" />
               </a>
             </div>
-            <div className="appstore self-center w-32 sm:w-40" data-aos={"fade-up"}>
-              <a href="https://www.github.com">
+            <div
+              className="appstore self-center w-32 sm:w-40"
+              data-aos={"fade-up"}
+            >
+              <a
+                href="https://www.apple.com/ios/app-store/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <img src={appstore} alt="appstore" />
               </a>
             </div>
           </div>
         </div>
-        <div className="container self-center h-64 w-40 abosolute md:right-0 sm:h-72 sm:w-64 md:mb-8 md:mr-16 md:h-80 lg:h-88 md:w-96 md:self-end" data-aos={"fade-down"}>
+        <div
+          className="container self-center h-64 w-40 abosolute md:right-0 sm:h-72 sm:w-64 md:mb-8 md:mr-16 md:h-80 lg:h-88 md:w-96 md:self-end"
+          data-aos={"fade-down"}
+        >
           <img src={mobile} className="h-full w-full" alt="mobile" />
         </div>
       </section>
