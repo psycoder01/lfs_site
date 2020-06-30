@@ -36,14 +36,17 @@ import {
 //Enroll Image
 import enroll from "../img/carousel/4.png";
 
+//Register Image
+import bussiness from "../img/grow-your-business.png";
+
 const Homepage = () => {
   return (
     <div className="main-container fadeIn">
       <Header />
-      <section className="carousel-container w-full md:h-64 lg:h-96 h-40">
+      <section className="carousel-container w-full sm:h-72 md:h-80 lg:h-96 h-40">
         <ImageCarousel />
       </section>
-      <section id="features" className="pt-16 pb-0">
+      <section id="features" className="pt-8 pb-0">
         <div className="container mx-auto text-center">
           <h2 className="font-mono text-3xl lg:text-5xl font-extrabold italic ">
             Why LFS Card !
@@ -62,7 +65,7 @@ const Homepage = () => {
               data-aos-duration="1000"
             >
               <Card className="mb-8 h-full">
-                <p className="font-semibold text-xl">Over 100+ Outlets</p>
+                <p className="font-semibold text-xl">Top Outlets / Brands</p>
                 <img className="m-auto mt-4 h-40" src={outlet} alt="outlets" />
                 <p className="mt-4">
                   <p className="mt-4">
@@ -87,7 +90,7 @@ const Homepage = () => {
                   src={discount}
                   alt="discount"
                 />
-                <p className="mt-4">Members save with LFS Card Offers .</p>
+                <p className="mt-4">Members save from LFS Card Offers .</p>
               </Card>
             </div>
 
@@ -128,22 +131,22 @@ const Homepage = () => {
           </div>
         </div>
       </section>
-      <section id="explore" className="mt-0 pt-24">
+      <section id="explore" className="mt-0 pt-16">
         <div
           className="text-4xl text-center font-extrabold tracking-wider"
           data-aos={"zoom-in"}
         >
-          Explore LFS World
+          Explore LFS Card
         </div>
         <SplitSection
           reverseOrder
           primarySlot={
             <div
-              className="bg-blue-300 text-gray-700  rounded-l-lg p-4 lg:pr-32 xl:pr-48"
+              className="bg-blue-300 text-gray-700 rounded-l-lg p-4 lg:pr-32 xl:pr-48"
               data-aos={"zoom-in-right"}
             >
               <h3 className="text-xl md:text-2xl lg:text-3xl xl:text-3xl font-semibold leading-tight underline">
-                Our Outlets
+                Our Categories
               </h3>
               <p className="mt-8 text-sm md:text-xl lg:text-xl xl:text-xl font-light leading-relaxed whitespace-pre-wrap">
                 {outletContent}
@@ -194,8 +197,8 @@ const Homepage = () => {
       </section>
       <section id="enroll" className="py-20 lg:pt-32">
         <div className="container mx-auto text-center">
-          <LabelText className="text-gray-600 font-extrabold">
-            Enroll Now !!!!
+          <LabelText className="text-gray-600 text-xl sm:text-2xl lg:text-4xl font-extrabold">
+            Enroll Now !
           </LabelText>
           <div className="flex flex-row mt-8 lg:px-24 justify-center">
             <img
@@ -215,7 +218,7 @@ const Homepage = () => {
                   )
                 }
               >
-                Get LFS Services Today
+                <span className="font-black">Get LFS Card Today</span>
               </Button>
             </div>
           </div>
@@ -248,7 +251,7 @@ const Homepage = () => {
               </a>
             </div>
             <div
-              className="appstore self-center w-32 sm:w-40"
+              className="appstore self-center ml-8 w-32 sm:w-40"
               data-aos={"fade-up"}
             >
               <a
@@ -269,14 +272,21 @@ const Homepage = () => {
         </div>
       </section>
       <section
-        id="connect"
+        id="register"
         className="container mt-40 py-16 lg:py-32 bg-gray-400 mx-auto text-center rounded-lg"
+        style={{
+          backgroundImage: `url(${bussiness})`,
+          backgroundAttachment: "fixed",
+          backgroundPosition: "bottom",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "100% 89%"
+        }}
       >
-        <h3 className="text-xl sm:text-3xl lg:text-5xl font-semibold">
-          If you're a Merchant
+        <h3 className="text-xl text-white sm:text-3xl lg:text-5xl font-extrabold">
+          Are you're a Merchant ?
         </h3>
-        <p className="text-sm mt-2 lg:mt-8 md:text-base lg:text-xl font-light">
-          Without any Cost or extra bill
+        <p className="text-sm text-white mt-2 lg:mt-8 md:text-base lg:text-xl font-light">
+          Grow Your Bussiness
         </p>
         <p className="mt-8 flex justify-center">
           <Button
@@ -285,7 +295,7 @@ const Homepage = () => {
               window.open("https://forms.gle/j4JqJaXj1wN6z7f7A")
             }
           >
-            Connect With Us !
+            Register Your Details
           </Button>
         </p>
         {/* <div className="container mx-auto">

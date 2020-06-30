@@ -12,7 +12,7 @@ const Header = () => (
         </div>
         LFS Card
       </div>
-      <div className="flex mt-4 text-primary sm:mt-0">
+      <div className="flex sm:mx-auto mt-4 text-primary sm:mt-0">
         <AnchorLink className="px-4" href="#features">
           Features
         </AnchorLink>
@@ -22,11 +22,11 @@ const Header = () => (
         <AnchorLink className="px-4" href="#enroll">
           Enroll
         </AnchorLink>
-        <AnchorLink className="px-4" href="#connect">
-          Connect
+        <AnchorLink className="px-4" href="#register">
+          Register
         </AnchorLink>
       </div>
-      <div className="hidden md:block">
+      <div className="hidden">
         <Button className="text-sm" clickFunction={()=> alert("Coming Soon!")}>Log In</Button>
       </div>
     </div>

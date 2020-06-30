@@ -1,17 +1,8 @@
-export const outletContent = `Variety of Outlets to choose from. 
-Double your enjoyment with paying less. 
-Find our merchant near you 
-without any hassle .` ;
+export const outletContent = `We’ve teamed up with various merchants for discounts and offers. 
+Find our nearest merchants and 
+grab the deals and offers.` ;
 
-export const audienceContent = `LFS Members save instantly 
-anywhere and anytime .
-Student or Teacher, 
-Employee or Boss .
-Anyone Can SAVE ....`;
+export const audienceContent = `LFS Members save instantly anywhere, anytime. Our happy users are amazed and grab the rewards.`;
 
-export const dontMissContent = `Get discount , offers 
-and rewards 
-with LFS Card . 
-Dont miss our deals . 
-Collect Coupons for a free reward .`;
+export const dontMissContent = `Have you missed our latest offers? Download our app and start exploring our deals .`;
 

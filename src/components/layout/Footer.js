@@ -45,7 +45,7 @@ const Footer = () => (
       </div>
       <div className="flex-1 mt-16 px-3">
         <h2 className="text-lg font-semibold text-white">Important Links</h2>
-        <ul className="mt-4 leading-loose">
+        <ul className="mt-4 text-white leading-loose">
           <li>
             <Popup
               name="Terms &amp; Conditions"
