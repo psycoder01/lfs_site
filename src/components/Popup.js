@@ -11,9 +11,9 @@ export default ({ name, title, content }) => {
         {name}
       </button>
       {open && (
-        <div className="fixed z-50 flex flex-col justify-left bg-gray-200 mx-auto inset-0 w-2/3 rounded p-4 m-4 shadow-lg">
-          <div className="header font-black text-center underline"> {title} </div>
-          <div className="content mt-6 overflow-scroll text-xs overflow-x-hidden">{content()}</div>
+        <div className="fixed z-50 flex flex-col justify-left bg-white mx-auto inset-0 w-2/3 rounded p-4 m-4 shadow-lg">
+          <div className="header font-black text-center text-black underline"> {title} </div>
+          <div className="content mt-6 overflow-scroll text-xs text-black overflow-x-hidden">{content()}</div>
           <button
             onClick={() => setOpen(!open)}
             type="button"
