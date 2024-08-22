@@ -1,3 +1,3 @@
-## A Single Page WebApp for LFS Group initiative LFS Card Loyalty Program
+A Single Page WebApp for LFS Group initiative LFS Card Loyalty Program
 
-Check the Website at  [LINK](https://lfscard.netlify.app)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4e1ac859-8d27-450e-8c4b-118e6a491e23/deploy-status)](https://app.netlify.com/sites/lfscard/deploys)
